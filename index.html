@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HeartMatch - Find Your Person</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-pink-50 text-gray-800 font-sans">
+
+  <!-- Navigation Bar -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-4xl font-bold text-pink-700"
+      style="font-family: 'Dancing Script', cursive; text-shadow: 2px 2px 5px rgba(255, 105, 180, 0.4);">
+      HeartMatch
+      <nav class="space-x-4">
+        <a href="login.html" class="text-pink-600 hover:underline">Login</a>
+        <a href="signup.html" class="bg-pink-600 text-white px-4 py-2 rounded-md hover:bg-pink-700 transition">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-[80vh] flex items-center justify-center text-center text-white bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1500&q=80');">
+    <div class="absolute inset-0 bg-gradient-to-b from-pink-800/60 to-pink-600/70 z-0"></div>
+    <div class="relative z-10 px-6" data-aos="fade-up">
+      <h1 class="text-5xl font-extrabold mb-4">Find Love That Lasts</h1>
+      <p class="text-lg mb-6">Real people. Real connections. Join the community that cares.</p>
+      <a href="signup.html" class="bg-white text-pink-700 font-semibold py-3 px-6 rounded-xl hover:bg-pink-100 transition">Get Started</a>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">How It Works</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="transition hover:-translate-y-1 hover:shadow-xl bg-pink-50 rounded-xl p-6" data-aos="fade-up">
+          <img src="https://img.icons8.com/ios-filled/100/heart-with-arrow.png" class="w-16 h-16 mx-auto mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Create a Profile</h3>
+          <p>Tell us about yourself and what you're looking for.</p>
+        </div>
+        <div class="transition hover:-translate-y-1 hover:shadow-xl bg-pink-50 rounded-xl p-6" data-aos="fade-up" data-aos-delay="150">
+          <img src="https://img.icons8.com/ios-filled/100/like--v1.png" class="w-16 h-16 mx-auto mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Browse Matches</h3>
+          <p>Explore profiles curated to your preferences.</p>
+        </div>
+        <div class="transition hover:-translate-y-1 hover:shadow-xl bg-pink-50 rounded-xl p-6" data-aos="fade-up" data-aos-delay="300">
+          <img src="https://img.icons8.com/ios-filled/100/chat.png" class="w-16 h-16 mx-auto mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Start Connecting</h3>
+          <p>Message people and build real connections.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Members -->
+  <section class="py-16 bg-pink-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">Meet Our Members</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="group overflow-hidden rounded-xl shadow-md bg-white transition transform hover:-translate-y-1 hover:shadow-xl" data-aos="fade-right">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-full h-72 object-cover transition-transform duration-300 group-hover:scale-105" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-pink-700">Sophia, 28</h3>
+            <p class="text-sm text-gray-600">Loves poetry, art museums & deep convos.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-xl shadow-md bg-white transition transform hover:-translate-y-1 hover:shadow-xl" data-aos="fade-up">
+          <img src="https://randomuser.me/api/portraits/men/46.jpg" class="w-full h-72 object-cover transition-transform duration-300 group-hover:scale-105" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-pink-700">Ethan, 31</h3>
+            <p class="text-sm text-gray-600">Adventurer, foodie, and aspiring novelist.</p>
+          </div>
+        </div>
+        <div class="group overflow-hidden rounded-xl shadow-md bg-white transition transform hover:-translate-y-1 hover:shadow-xl" data-aos="fade-left">
+          <img src="https://randomuser.me/api/portraits/women/47.jpg" class="w-full h-72 object-cover transition-transform duration-300 group-hover:scale-105" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-pink-700">Lina, 26</h3>
+            <p class="text-sm text-gray-600">Plant lover, gamer, looking for something real.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 bg-pink-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10" data-aos="fade-up">Success Stories</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div class="bg-white p-6 rounded-xl shadow-md transition hover:shadow-lg hover:-translate-y-1" data-aos="fade-up-right">
+          <p class="italic">"I never believed in online dating until I met Jess on HeartMatch. Now we're engaged!"</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– Alex & Jess</h4>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md transition hover:shadow-lg hover:-translate-y-1" data-aos="fade-up-left">
+          <p class="italic">"After years of bad dates, HeartMatch helped me find someone who truly gets me."</p>
+          <h4 class="mt-4 font-semibold text-pink-700">– Mia</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-pink-600 py-16 text-white text-center" data-aos="zoom-in">
+    <h2 class="text-3xl font-bold mb-4">Ready to Find the One?</h2>
+    <p class="mb-6">Join thousands of singles finding meaningful connections.</p>
+    <a href="signup.html" class="bg-white text-pink-700 font-semibold py-3 px-6 rounded-xl hover:bg-pink-100 transition">Join Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-100 py-6 text-center text-sm text-pink-700">
+    &copy; 2025 HeartMatch. All rights reserved.
+  </footer>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
